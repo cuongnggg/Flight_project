@@ -1,0 +1,49 @@
+:root {
+  --PrimaryColor: hsl(225, 50%, 48%);
+  --SecondaryColor: hsl(180, 17%, 95%);
+  --colorOne: hsl(15, 74%, 70%);
+  --colorTwo: hsl(28, 100%, 82%);
+  --HoverColor: hsl(225, 56%, 59%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 12%);
+  --textColor: hsl(240, 1%, 48%);
+  --borderColor: hsl(0, 0%, 83%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(145, 145, 145);
+  --inputColor: hsl(330, 12%, 97%);
+  --boxShadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  --transition: .4s ease-in-out;
+}
+
+.home {
+  padding-top: 10rem;
+  text-align: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+.home .mainText {
+  color: var(--blackColor);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 2.5rem;
+}
+.home .homeImages {
+  width: 100%;
+  margin: 1rem auto 0;
+  justify-content: center;
+  position: relative;
+  border-radius: 5rem;
+}
+.home .homeImages .videoDiv {
+  width: 100%;
+}
+.home .homeImages .videoDiv .video {
+  border-radius: 10rem;
+  filter: blur(1.2px);
+}
+.home .homeImages .plane {
+  position: absolute;
+  width: 100%;
+  top: -10%;
+}/*# sourceMappingURL=Home.css.map */
